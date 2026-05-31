@@ -296,3 +296,30 @@ html , body{
     gap: 10px;
 
 }
+
+#freq_asked_questions{
+    background-color: black;
+    padding: 60px 150px 10px 150px; 
+}
+
+#all_questions{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.questions{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(116, 103, 103, 0.511);
+    padding-left: 30px;
+    padding-right: 50px;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
