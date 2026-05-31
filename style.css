@@ -3,11 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html , body{
     height: 100%;
     width: 100%;
+    background-color: black;
 }
 
 
@@ -260,6 +262,35 @@ html , body{
 /* ------------------------------------ */
 
 #reasons_to_join{
-    height: 50px;
-    background-color: blue;
+    
+    padding: 0px 150px 10px 150px;  
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+#complete_reasons{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#reasons_to_join h2{
+    margin-left: 9px;
+}
+
+.reasons{
+    height: 270px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 30px 10px 30px 15px;
+
+    background-color: rgba(116, 103, 103, 0.511);
+    /* box-shadow: inset 5px 5px 20px rgba(231, 228, 243, 0.5) , inset -5px -5px 10px rgba(254, 254, 254, 0.6) ; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
 }
