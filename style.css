@@ -9,7 +9,6 @@
 html , body{
     height: 100%;
     width: 100%;
-    background-color: black;
 }
 
 
@@ -264,14 +263,17 @@ html , body{
 #reasons_to_join{
     
     padding: 0px 150px 10px 150px;  
+    background-color: black;
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    padding-top: 30px;
 
 }
 
 #complete_reasons{
     margin-top: 15px;
+
+    
     display: flex;
     flex-direction: row;
     gap: 15px;
