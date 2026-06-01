@@ -289,7 +289,13 @@ html , body{
     border-radius: 30px;
     padding: 30px 10px 30px 15px;
 
-    background-color: rgba(116, 103, 103, 0.511);
+    background: linear-gradient(
+        135deg,
+        #192247 0%,
+        #210e17 100%
+    );
+    
+    /* background-color: rgba(116, 103, 103, 0.511); */
     /* box-shadow: inset 5px 5px 20px rgba(231, 228, 243, 0.5) , inset -5px -5px 10px rgba(254, 254, 254, 0.6) ; */
     display: flex;
     flex-direction: column;
@@ -306,16 +312,17 @@ html , body{
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    
 }
 
 .question{
     height: 80px;
     width: 100%;
-    background-color: rgba(116, 103, 103, 0.511);
+    background-color: rgba(116, 103, 103, 0.379);
     padding-left: 30px;
     padding-right: 50px;
-
+    margin-top: 7px;
+    margin-bottom: 3px;
 
     display: flex;
     flex-direction: row;
@@ -329,8 +336,15 @@ html , body{
 
 .question span{
     scale: 1.5;
+    transition: transform 0.5s linear;
 }
 
 .answers{
-    display:  none;
+    font-size: 25px;
+    background-color: rgba(116, 103, 103, 0.379);
+    margin-bottom: 3px;
+    padding: 20px;
+
+    display: none;
+    behavior: "smooth";
 }
