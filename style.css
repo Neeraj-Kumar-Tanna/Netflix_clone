@@ -309,7 +309,7 @@ html , body{
     gap: 10px;
 }
 
-.questions{
+.question{
     height: 80px;
     width: 100%;
     background-color: rgba(116, 103, 103, 0.511);
@@ -323,3 +323,14 @@ html , body{
     justify-content: space-between;
 }
 
+.question p{
+    font-size: 25px;
+}
+
+.question span{
+    scale: 1.5;
+}
+
+.answers{
+    display:  none;
+}
